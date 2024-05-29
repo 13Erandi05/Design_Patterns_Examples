@@ -1,0 +1,13 @@
+Imagine you have an object and you have send a method to
+that object (For example we send speak() method and object return
+"Hello world". If we want to change the return context we can change
+it at runtime not the compile time) want to change the context
+at run time we use decorator pattern. Without changing the context
+of object.
+To do this we wrap the object with another object and send
+message to that object and wrapper object send the modified method
+to original object.
+
+Decorator pattern attaches additional responsibility
+to an object dynamically. Decorator provide flexible
+alternative to subclassing.

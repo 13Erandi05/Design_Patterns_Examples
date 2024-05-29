@@ -1,0 +1,8 @@
+Factory Method Pattern
+-----------------------
+Define a interface for creating an object but let subclasses
+decide which class to instantiate. Factory method
+lets the class differ instantiate to subclass.
+
+Key point: In the end you need to create object.
+

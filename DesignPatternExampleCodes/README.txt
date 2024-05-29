@@ -1,0 +1,1 @@
+This Project Contains sample code bases for design patterns.

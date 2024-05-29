@@ -1,0 +1,19 @@
+Try to solve:
+Imagine you have 2 objects and they can change their state.
+And somehow one object change its state and the other object want to know
+whenever the other object change its state. For example let consider one object
+as weather station and the other object as a display screen. Weather station is
+always change and display screen must get the updates when the weather station updates.
+
+As a solution rather than asking from the first object; first object has the
+responsible for if it changes its state then inform it to all other
+subscribers.
+
+This is the Observer pattern. But to push the data for subscribers they have
+to be registered in the first object to get notification while the object
+change its state.
+
+Definition: A one to many dependency between objects so that one object
+changes state all of its dependencies are notified and updated automatically.
+
+IObservable has one to many IObserver

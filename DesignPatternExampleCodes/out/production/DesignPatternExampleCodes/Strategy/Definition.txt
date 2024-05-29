@@ -1,0 +1,28 @@
+A family of algorithms encapsulate each one and make them interchangeable
+strategy lets the algorithm vary independently of clients that use it.
+
+Its like you have a bunch of algorithms that you can plug and play.If we
+change an algorithms the user of algorithms does not have to be changed.
+
+inheritance -> is a implement
+composition -> has a -> create a constructor with interface as a parameter
+
+class Duck
+    quack()
+    display()
+    fly()
+
+   class wildDuck  // wild duck is a duck
+        display()
+
+   class cityDuck  // city duck is a duck
+        display()
+
+   class rubberDuck // In here rubber duck should not be fly but not being fly is also flying behaviour
+        display()
+
+/*
+if we have 100% same behaviour 2 child methods
+to solve this we can create a interface for this behaviour
+and create behaviour implement interface
+*/
